@@ -1,0 +1,49 @@
+.our-features-section {
+    padding-top: 94px;
+}
+
+.list-our-features {
+    display: flex;
+    gap: 30px;
+}
+
+.our-features-item {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.desc {
+    color: var(--contact-color);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.block-icon-features {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-our-features {
+    width: 70px;
+    height: 70px;
+
+}
+
+.our-block {
+    margin-top: 30px;
+}

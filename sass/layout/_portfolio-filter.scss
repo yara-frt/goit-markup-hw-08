@@ -1,0 +1,115 @@
+.filter {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.filter-list__btn {
+    font-family: inherit;
+    background-color: var(--our-team-color);
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 6px 22px;
+    transition: background-color var(--time-function), box-shadowvar var(--time-function), color var(--time-function);
+
+        &:hover,
+        &:focus {
+            background-color: var(--tuch-color);
+            color: var(--white-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        }
+}
+
+
+
+.exampl {
+    padding-bottom: 94px;
+}
+
+.exampl-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+
+
+.example-list__link {
+    display: block;
+    transition: box-shadow var(--time-function);
+
+        &:hover,
+        &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+}
+
+.example-overlay-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 150, 243, 0.9);
+    padding: 63px 24px;
+    width: 100%;
+    overflow: auto;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+
+        .example-list__link:hover &,
+        .example-list__link:focus & {
+            transform: translateY(0%);
+        }
+}
+
+.overlay__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+
+
+
+
+
+.example-list__subtitle {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+}
+
+.example-list__text {
+    color: var(--contact-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.example-list-box {
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+}
