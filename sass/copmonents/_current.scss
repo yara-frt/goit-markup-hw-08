@@ -1,16 +1,37 @@
-.current {
-    color: var(--tuch-color);
-    position: relative;
-
-    &::after {
-            content: "";
-            position: absolute;
-            display: block;
-            width: 100%;
-            height: 4px;
-            background: #2196F3;
-            border-radius: 2px;
-            top: 77px;
-        }
+@media screen and (min-width: 768px){
+    .current {
+            color: var(--tuch-color);
+            position: relative;
+    
+            &::after {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    height: 4px;
+                    background: #2196F3;
+                    border-radius: 2px;
+                    top: 78px;
+                }
+    }
 }
+
+
+
+
+// .current {
+//     color: var(--tuch-color);
+//     position: relative;
+
+//     &::after {
+//             content: "";
+//             position: absolute;
+//             display: block;
+//             width: 100%;
+//             height: 4px;
+//             background: #2196F3;
+//             border-radius: 2px;
+//             top: 77px;
+//         }
+// }
 

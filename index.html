@@ -17,7 +17,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container header">
+      <div class="container header__container">
         <nav class="nav">
           <a class="logo link logo-padding" href="./index.html"
             >Web<span class="logo--black">Studio</span></a
@@ -36,6 +36,11 @@
             <li><a class="link nav-list__item" href="#">Контакти</a></li>
           </ul>
         </nav>
+        <button class="mobile-menu-btn js-open-menu">
+          <svg class="mobile-menu-btn__icon">
+            <use href="./images/sprite.svg#icon-burger"></use>
+          </svg>
+        </button>
 
         <ul class="list contact-box">
           <li class="contact-box__item">
@@ -57,19 +62,91 @@
           </li>
         </ul>
       </div>
+      <div class="mobile-menu js-menu-container" id="mobile-menu">
+        <div class="container mobile-menu__container">
+          <button class="mobile-menu__close-btn js-close-menu">
+            <svg class="mobile-menu__close-icon">
+              <use href="./images/sprite.svg#icon-close-mobile"></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-nav list">
+            <li class="mobile-menu-nav__item">
+              <a
+                class="link mobile-menu-nav__link current link"
+                href="./index.html"
+                >Студія</a
+              >
+            </li>
+            <li class="mobile-menu-nav__item">
+              <a class="link mobile-menu-nav__link link" href="./portfolio.html"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="mobile-menu-nav__item">
+              <a class="link mobile-menu-nav__link link" href="#">Контакти</a>
+            </li>
+          </ul>
+
+          <ul class="list mobile-menu-contact">
+            <li class="mobile-menu-contact__item">
+              <a
+                href="tel:+380961111111"
+                class="mobile-menu-contact__link mobile-menu-contact--number link"
+              >
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="contact-box__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-menu-contact__link mobile-menu-contact-email link"
+              >
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="mobile-menu-social list">
+            <li class="mobile-menu-social__item">
+              <a href="#" class="mobile-menu-social__link link">Instagram</a>
+            </li>
+            <li class="mobile-menu-social__item">
+              <a
+                href="#"
+                class="mobile-menu-social__link mobile-menu-social__link--line link"
+                >Twitter</a
+              >
+            </li>
+            <li class="mobile-menu-social__item">
+              <a
+                href="#"
+                class="mobile-menu-social__link mobile-menu-social__link--line link"
+                >Facebook</a
+              >
+            </li>
+            <li class="mobile-menu-social__item">
+              <a
+                href="#"
+                class="mobile-menu-social__link mobile-menu-social__link--line link"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section class="first-section">
+      <!-- <section class="first-section">
         <div class="container box-first-section">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <section class="our-features-section">
+      <!-- <section class="our-features-section">
         <div class="container">
           <h2 class="hide">Наші особливості</h2>
           <ul class="list list-our-features">
@@ -131,9 +208,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="work-section">
+      <!-- <section class="work-section">
         <div class="container">
           <h2 class="title title-work">Чим ми займаємося</h2>
           <ul class="list list-work">
@@ -172,9 +249,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="our-team-section">
+      <!-- <section class="our-team-section">
         <div class="container">
           <h2 class="title title-team">Наша команда</h2>
           <ul class="list list-team">
@@ -352,9 +429,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="customers">
+      <!-- <section class="customers">
         <div class="container">
           <h2 class="title title-customers">Постійні клієнти</h2>
           <ul class="list customers-list">
@@ -402,10 +479,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="address-box">
           <div class="address-block">
@@ -491,8 +568,8 @@
           </div>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="11" height="11">
@@ -571,6 +648,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
