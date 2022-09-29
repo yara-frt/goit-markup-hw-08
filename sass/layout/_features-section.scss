@@ -1,9 +1,11 @@
 .our-features-section {
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .list-our-features {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     gap: 30px;
 }

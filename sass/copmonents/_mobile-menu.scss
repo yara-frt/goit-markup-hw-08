@@ -34,6 +34,12 @@
         border: 0;
         padding: 0;
         line-height: 0;
+        transition: fill var(--time-function);
+
+            &:hover,
+            &:focus {
+                fill:var(--tuch-color);
+            }
     }
 
     .mobile-menu__close-icon {
@@ -95,6 +101,7 @@
 
     .mobile-menu-social {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         column-gap: 20px;
     }

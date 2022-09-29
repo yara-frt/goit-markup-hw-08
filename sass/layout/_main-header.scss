@@ -23,6 +23,10 @@
         width: 40px;
         height: 40px;
     }
+
+    .main-header {
+        border-bottom: 1px solid #ECECEC;
+    }
 }
 
 
@@ -56,7 +60,6 @@
 
     .main-header {
         border-bottom: 1px solid #ECECEC;
-
     }
 
     .header__container {
@@ -145,6 +148,11 @@
         flex-direction: row;
         align-items: center;
         gap: 50px
+
+    }
+
+    .main-header {
+        min-width: 1600px;
 
     }
 }

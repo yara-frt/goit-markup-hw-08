@@ -43,7 +43,8 @@
     letter-spacing: 0.06em;
     text-align: center;
     color: var(--white-color);
-
+    transition: background-color var(--time-function);
+    
         &:hover,
         &:focus {
              background-color: var(--active-button);
